@@ -1,0 +1,57 @@
+/******************************************************/
+/*                     CHARACTER                      */
+/******************************************************/
+
+character {
+	display: inline-block;
+	margin: 2px;
+}
+
+hanzi {
+	display:block;
+	padding: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: xx-large;
+	text-align: center;
+}
+
+pinyin {
+	display: block;
+	padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: medium;
+	text-align: center;
+}
+
+/******************************************************/
+/*                        WORD                        */
+/******************************************************/
+
+word {
+	display: block;
+	text-align: center;
+	background: white;
+	padding: 15px;
+	margin: 5px;
+}
+
+/******************************************************/
+/*                         CARD                       */
+/******************************************************/
+
+card {
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+translation {
+	display: block;
+	font-size: xx-large;
+	text-align: center;
+	background: white;
+	padding: 15px;
+	margin: 5px;
+}

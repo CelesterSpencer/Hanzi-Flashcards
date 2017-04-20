@@ -2,9 +2,7 @@ import * as peg from 'pegjs';
 import ChunkGrammar from './grammars/chunk';
 import PinyinGrammar from './grammars/pinyin';
 import HanziGrammar from './grammars/hanzi';
-import {Word} from './data';
-
-console.log(ChunkGrammar);
+import { Word } from './data';
 
 class ChunkParserClass {
 	constructor() {
